@@ -1,3 +1,85 @@
+@charset "UTF-8";
+body {
+  background-color: white;
+}
 
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 500px;
+}
+
+.presentation__detenteur {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* .sujet{
+    &__list{
+
+    }
+} */
+.sujet__list {
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.presentation {
+  background-image: url(../images/télécharger.jpg);
+  background-repeat: no-repeat;
+}
+
+.photo p {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.photo__ex {
+  color: red;
+}
+
+.photo__ex {
+  color: black;
+}
+
+.border {
+  border-top: 1px solid red;
+  border-radius: 10px; /*border top left, border down left */
+  box-shadow: 5px 5px 5px 5px rgb(0, 47, 255); /* il prend quatre valeur */
+  text-shadow: 5px;
+}
+
+.box__1 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+.box__2 {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+.box__3 {
+  height: 50px;
+  width: 50px;
+  background-color: violet;
+}
+
+.case__1 {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+}
+.case__2 {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+.case__3 {
+  height: 50px;
+  width: 50px;
+  background-color: violet;
+}
 
 /*# sourceMappingURL=style.css.map */
